@@ -1,0 +1,559 @@
+.logo_img {
+    width:40px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.color-change-3x {
+	-webkit-animation: color-change-3x 4s linear infinite alternate both;
+	        animation: color-change-3x 4s linear infinite alternate both;
+}
+
+ @-webkit-keyframes color-change-3x {
+    0% {
+      background: #19dcea;
+    }
+    50% {
+      background: #b22cff;
+    }
+    100% {
+      background: #ea2222;
+    }
+  }
+  @keyframes color-change-3x {
+    0% {
+      background: #19dcea;
+    }
+    50% {
+      background: #b22cff;
+    }
+    100% {
+      background: #ea2222;
+    }
+  }
+  
+.write_text {
+    width: 500px;
+    height: 300px;
+}
+
+.encript {
+    width: 500px;
+    min-width: 500px ;
+    max-width: 500px;
+    height: 280px;
+    min-height: 280px;
+    max-height: 280px;
+}
+
+.padding {
+  display: block;
+  margin: 10px auto;
+}
+
+.textarea {
+  display: block;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  display: block;
+}
+
+.form-control {
+  width: 200px;
+}
+
+.caja {
+  display: block;
+  margin: 20px auto;
+}
+
+.caja textarea {
+  display: block;
+  margin: auto;
+  margin-left: 20px;
+  width: 560px;
+  height: 300px;
+  min-height: 300px;
+  max-height: 300px;
+}
+
+.caja .btn {
+  display: block;
+  margin-left: 20px;
+}
+
+.card {
+  margin: 10px;
+  display: inline;
+  width: 600px;
+}
+
+
+@media screen and (max-width: 1310px) {
+
+  .caja textarea {
+    display: block;
+    margin-left: 20px;
+    width: 560px;
+    height: 300px;
+    min-height: 300px;
+    max-height: 300px;
+  }
+  
+  .card {
+    margin: 10px;
+    display: inline;
+  }
+
+}
+
+@media screen and (max-width: 1250px) {
+
+  .caja textarea {
+    width: 530px;
+  }
+
+  .card {  
+    width: 570px;  
+  }
+
+}
+
+@media screen and (max-width: 1185px) {
+  
+  .caja textarea {
+    width: 500px;
+  }
+  
+  .card {  
+    width: 550px;  
+  }
+
+}
+
+@media screen and (max-width: 1134px) {
+  
+  .caja textarea {
+    width: 480px;
+  }
+  
+  .card {  
+    width: 520px;  
+  }
+
+}
+
+@media screen and (max-width: 1078px) {
+  
+  .caja textarea {
+    width: 460px;
+  }
+  
+  .card {  
+    width: 500px;  
+  }
+
+}
+
+@media screen and (max-width: 1048px) {
+  
+  .caja textarea {
+    width: 440px;
+  }
+  
+  .card {  
+    width: 480px;  
+  }
+
+}
+
+@media screen and (max-width: 993px) {
+  
+  .caja textarea {
+    width: 420px;
+  }
+  
+  .card {  
+    width: 460px;  
+  }
+
+}
+
+@media screen and (max-width: 956px) {
+  
+  .caja textarea {
+    width: 400px;
+  }
+  
+  .card {  
+    width: 440px;  
+  }
+
+}
+
+@media screen and (max-width: 917px) {
+  
+  .caja textarea {
+    width: 380px;
+  }
+  
+  .card {  
+    width: 420px;  
+  }
+
+}
+
+@media screen and (max-width: 880px) {
+  
+  .caja textarea {
+    width: 360px;
+  }
+  
+  .card {  
+    width: 400px;  
+  }
+
+}
+
+@media screen and (max-width: 845px) {
+  
+  .caja textarea {
+    width: 340px;  
+  }
+  
+  .card {  
+    width: 380px;  
+  }
+
+}
+
+@media screen and (max-width: 793px) {
+  
+  .caja textarea {
+    width: 320px;  
+  }
+  
+  .card {  
+    width: 360px;  
+  }
+
+}
+
+@media screen and (max-width: 751px) {
+  
+  .caja textarea {
+    width: 300px;  
+  }
+  
+  .card {  
+    width: 340px;  
+  }
+
+}
+
+@media screen and (max-width: 714px) {
+  
+  .caja textarea {
+    width: 280px;  
+  }
+  
+  .card {  
+    width: 320px;  
+  }
+
+  .caja .btn {
+    width: 130px;
+  }
+
+}
+
+@media screen and (max-width: 683px) {
+  
+  .caja textarea {
+    width: 260px;  
+  }
+  
+  .card {  
+    width: 300px;  
+  }
+
+  .caja .btn {
+    width: 100px;
+    font-size: 10px;
+  }
+
+}
+
+@media screen and (max-width: 641px) {
+  
+  .caja textarea {
+    width: 240px;  
+  }
+  
+  .card {  
+    width: 280px;  
+  }
+
+  .caja .btn {
+    width: 100px;
+    font-size: 10px;
+  }
+
+}
+
+@media screen and (max-width: 593px) {
+  
+  .caja textarea {
+    width: 220px;  
+  }
+  
+  .card {  
+    width: 260px;  
+  }
+
+  .caja .btn {
+    width: 100px;
+    font-size: 10px;
+  }
+
+}
+
+@media screen and (max-width: 568px) {
+
+  .caja textarea {
+    width: 470px;  
+  }
+  
+  .card {  
+    display: inline-block;
+    width: 510px;  
+  }
+
+  .caja .btn {
+    width: 100px;
+    font-size: 10px;
+  }
+
+  .div_superior {
+    position:absolute;
+    top:570px;
+    left:0px;
+    z-index:10;
+    }
+    
+    .div_inferior{
+    position:abasolute;
+    top:400px;
+    left:0px;
+    z-index:5;
+    }
+    
+    .sec {
+      height: 950px;
+    }
+
+}
+
+@media screen and (max-width: 535px) {
+
+  .caja textarea {
+    width: 450px;  
+  }
+  
+  .card {  
+    display: inline-block;
+    width: 490px;  
+  }
+
+  .caja .btn {
+    width: 100px;
+    font-size: 10px;
+  }
+    
+}
+
+@media screen and (max-width: 521px) {
+
+  .caja textarea {
+    width: 420px;  
+  }
+  
+  .card {  
+    display: inline-block;
+    width: 460px;  
+  }
+
+  .caja .btn {
+    width: 100px;
+    font-size: 10px;
+  }
+    
+}
+
+@media screen and (max-width: 483px) {
+
+  .caja textarea {
+    width: 400px;  
+  }
+  
+  .card {  
+    display: inline-block;
+    width: 440px;  
+  }
+
+  .caja .btn {
+    width: 100px;
+    font-size: 10px;
+  }
+    
+}
+
+@media screen and (max-width: 462px) {
+
+  .caja textarea {
+    width: 380px;  
+  }
+  
+  .card {  
+    display: inline-block;
+    width: 420px;  
+  }
+
+  .caja .btn {
+    width: 100px;
+    font-size: 10px;
+  }
+    
+}
+
+@media screen and (max-width: 442px) {
+
+  .caja textarea {
+    width: 360px;  
+  }
+  
+  .card {  
+    display: inline-block;
+    width: 400px;  
+  }
+
+  .caja .btn {
+    width: 100px;
+    font-size: 10px;
+  }
+    
+}
+
+@media screen and (max-width: 421px) {
+
+  .caja textarea {
+    width: 340px;  
+  }
+  
+  .card {  
+    display: inline-block;
+    width: 380px;  
+  }
+
+  .caja .btn {
+    width: 100px;
+    font-size: 10px;
+  }
+    
+}
+
+@media screen and (max-width: 400px) {
+
+  .caja textarea {
+    width: 320px;  
+  }
+  
+  .card {  
+    display: inline-block;
+    width: 360px;  
+  }
+
+  .caja .btn {
+    width: 100px;
+    font-size: 10px;
+  }
+    
+}
+
+@media screen and (max-width: 375px) {
+
+  .caja textarea {
+    width: 300px;  
+  }
+  
+  .card {  
+    display: inline-block;
+    width: 340px;  
+  }
+
+  .caja .btn {
+    width: 100px;
+    font-size: 10px;
+  }
+    
+}
+
+@media screen and (max-width: 355px) {
+
+  .caja textarea {
+    width: 280px;  
+  }
+  
+  .card {  
+    display: inline-block;
+    width: 320px;  
+  }
+
+  .caja .btn {
+    width: 100px;
+    font-size: 10px;
+  }
+    
+}
+
+@media screen and (max-width: 342px) {
+
+  .caja textarea {
+    width: 260px;  
+  }
+  
+  .card {  
+    display: inline-block;
+    width: 300px;  
+  }
+
+  .caja .btn {
+    width: 100px;
+    font-size: 10px;
+  }
+    
+}
+
+@media screen and (max-width: 321px) {
+
+  .caja textarea {
+    width: 240px;  
+    height:240px;
+  }
+  
+  .card {  
+    display: inline-block;
+    width: 280px;  
+  }
+
+  .caja .btn {
+    width: 100px;
+    font-size: 10px;
+  }
+    
+}

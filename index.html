@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>Text Encryptor</title>
+    <!-- Favicon  -->
+    <link rel="shortcut icon" href="img/alura.webp">
+    <!-- ***** All CSS Files ***** -->
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/core-style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="css/responsive/responsive.css">
+
+    <!-- Switch Fonts via CSS Import system -->
+    <link href="css/fonts/opensans.css" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/4fc40aa7f8.js" crossorigin="anonymous"></script>
+
+    <!--SweetAlert-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body>
+
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="classy-load"></div>
+    </div>
+
+    <!-- ***** Header Start ***** -->
+    <header class="header_area minimalist_portfolio">
+        <!-- Main Header Area Start -->
+        <div class="main_header_area animated">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav id="navigation1" class="navigation">
+                            <!-- Logo Area -->
+                            <div class="nav-header" style="display: flex;"> &nbsp;
+                                <img class="logo_img" src="img/alura.webp" alt="" srcset="">
+                                <div class="nav-brand">JavaScript Challenge</div>
+                                <div class="nav-toggle"></div>
+                            </div>
+                            <!-- Main Menus Wrapper -->
+                            <div class="nav-menus-wrapper">
+                                <ul class="nav-menu align-to-right" id="nav">
+                                    <li><a href="https://github.com/leonard-soft" target="_blank" ><i class="fa-brands fa-github"></i> github</a></li>
+                                    <li><a href="https://www.linkedin.com/in/leonardo-bermudez-forero-177777215/" target="_blank"><i class="fa-brands fa-linkedin"></i>LinkedIn</a></li>
+                                    <li><a href="https://app.aluracursos.com/user/leoberfo" target="_blank"> <i class="fa-solid fa-user"></i> Alura-Profile</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header End ***** -->
+
+    <!-- ***** Welcome Area Start ***** -->
+    <section style="background-color:#ADF5DF;" class="portfolio_welcome_area height-500 minimalist_portfolio" id="home">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="minimalist_welcome_area_text text-center">
+                        <h3>¡Bienvenidos Devs!</h3> <br>
+                        <p>Aqui encontraras un encriptador de texto. programa que elavoramos con el acompañamiento de Alura Latam &amp; ORACLE ONE. </p> <br>
+                        <button type="button" id="button" class="btn btn-pill color-change-3x">Info</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Welcome Area End ***** -->
+
+    <!-- ***** Testimonial Area Start ***** -->
+     <section class="bg-ligth sec">
+
+      <div class="padding">
+        <h3 align="center">Encriptador de texto</h3> <br>
+      </div> 
+
+      <div class="textarea col-lg-13">
+
+        <div class="card div_superior">
+            <div class="caja form-group">
+                <textarea class="form-control" name="message" id="message" placeholder="Escribe un mensaje"></textarea> <br>
+                 <div style="display: flex;">
+                    <button type="button" id="e_button" class="btn btn-pill color-change-3x">encriptar</button>
+                    <button type="button" id="d_button" class="btn btn-pill color-change-3x">desencriptar</button>
+                 </div>
+            </div> 
+        </div> 
+
+        <div class="card div_inferior">
+            <div class="caja form-group">
+                <textarea class="form-control" name="encrypt" id="encrypt" placeholder="Mensaje encriptado" readonly></textarea> <br>
+                 <div>
+                    <button class="btn btn-pill color-change-3x" id="c_button" type="button">Copiar</button>
+                 </div>
+            </div> 
+        </div> 
+
+      </div> <br> <br>
+     </section>
+    <!-- ***** Testimonial Area End ***** -->
+
+    <!-- ***** Footer Area Start ***** -->
+    <footer class="footer_area minimalist_portfolio" id="contact">
+        <!-- Footer Bottom Area Start -->
+        <div class="footer_bottom_area section_padding_100">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <!-- Footer Address Start -->
+                        <div class="footer_address">
+                            <h3>JavaScript Challenge</h3>
+                        </div>
+                        <!-- Social Links Start -->
+                        <div class="portfolio_social_links">
+
+                            <a href="https://github.com/leonard-soft" target="_blank" ><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/leonardo-bermudez-forero-177777215/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://app.aluracursos.com/user/leoberfo" target="_blank"> <i class="fa-solid fa-user"></i></a>
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ***** Footer Area End ***** -->
+
+    <!-- ***** All jQuery Plugins ***** -->
+
+    <!-- jQuery (necessary for all JavaScript plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/include-all-plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+    <!--App.js-->
+    <script src="app.js"></script> 
+
+</body>
+
+</html>
